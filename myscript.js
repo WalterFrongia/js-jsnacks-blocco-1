@@ -5,10 +5,6 @@
  *  Il programma stampa la somma di tutti i numeri inseriti.
  *  Esegui questo programma in due versioni, con il for e con il while.
  */
-
-
- let numeroUtente = prompt("inserisci un numero")
- console.log(numeroUtente);
  
  let sommaFor = 0;
  
@@ -17,3 +13,4 @@
      sommaFor = sommaFor + parseInt( prompt ("inserisci un numero") );
  }
  console.log(sommaFor);
+
