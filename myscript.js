@@ -8,9 +8,17 @@
  
  let sommaFor = 0;
  
- 
  for (let i = 0; i < 5; i++){
      sommaFor = sommaFor + parseInt( prompt ("inserisci un numero") );
  }
  console.log(sommaFor);
 
+
+ let sommaWhile = 0;
+
+ let j = 0;
+ while ( j < 5) {
+     sommaWhile += parseInt ( prompt ("inserisci un numero") );
+     j++;
+ }
+console.log(sommaWhile);
