@@ -41,7 +41,7 @@
 let listaInvitati =[];
 
 
-for( let i = 0; 0 < 8; i++){
+for( let i = 0; i < 8; i++){
 
     let indiceNomeRandomico = Math.floor(Math.random() * listaNomi.length);
     let indiceCognomeRandomico = Math.floor(Math.random() * listaCognomi.length);
